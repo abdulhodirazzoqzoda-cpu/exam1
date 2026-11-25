@@ -646,4 +646,128 @@
   color: #666;
   line-height: 1.6;
   max-width: 300px;
+}qismi_shahodat {
+  background-color: #faf9f6;
+  padding: 100px 0;
+}
+
+.shahodat_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.qismi_rasm_shahodat {
+  flex: 1;
+  position: relative;
+  max-width: 500px;
+}
+
+.rasmi_shahodat {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.karti_shahodat {
+  position: absolute;
+  bottom: -30px;
+  right: -40px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+.matni_shahodat {
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.nomi_shahod {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+
+.holati_shahod {
+  font-size: 13px;
+  color: #888;
+}
+
+.qismi_maton_shahodat {
+  flex: 1;
+  max-width: 500px;
+  padding-left: 20px;
+}
+
+.sarlavhai_khurd {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.unvoni_asosi {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.tavsifi_asosi {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.fehrasti_alomat {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.fehrasti_alomat li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.icon_check {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.tugmai_zarinni {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #1a1a1a;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.tugmai_zarinni:hover {
+  opacity: 0.8;
 }
