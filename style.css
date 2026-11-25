@@ -186,3 +186,152 @@
   font-size: 14px;
   color: #666;
 }
+.qismi_darborai_mo {
+  background-color: #faf9f6;
+  padding: 80px 0;
+}
+
+.sarlavhai_darborai_mo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  gap: 40px;
+}
+
+.matni_darborai_mo {
+  max-width: 550px;
+}
+
+.sarlavhai_khurd {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.unvoni_asosi {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.tavsifi_asosi {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.tugmahoi_darborai_mo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.tugmai_zarinni {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #1a1a1a;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tugmai_shaffof {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 20px;
+  white-space: nowrap;
+}
+
+.shabakai_tasvirho {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.sutuni_chap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.rasmi_kalon_chap {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.rasmhoi_khurd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.rasmi_khurd {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.sutuni_rost {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.rasmi_kalon_rost {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.matni_tah_rasm {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tavsifi_hurdi {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.fehrasti_alomat {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fehrasti_alomat li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.icon_check {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
