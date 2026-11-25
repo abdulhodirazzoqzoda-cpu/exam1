@@ -559,3 +559,91 @@
   color: #555;
   line-height: 1.7;
 }
+.qismi_kumak {
+  background-color: #faf9f6;
+  padding: 80px 0;
+}
+
+.sarlavhai_qism {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.matni_sarlavha {
+  max-width: 550px;
+}
+
+.sarlavhai_khurd {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.unvoni_asosi_kumak {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+
+.tugmai_zarinni {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #1a1a1a;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.shabakai_kartaho {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 40px;
+}
+
+.karti_kumak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.davrai_icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fef4e6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.icon_kumak {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.unvoni_kart {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+.tavsifi_kart {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 300px;
+}
