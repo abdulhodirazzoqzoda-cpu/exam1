@@ -335,3 +335,100 @@
   height: 20px;
   object-fit: contain;
 }
+.natijahoi_komkori {
+  background-color: #faf9f6;
+  padding: 80px 0;
+}
+
+.natijaho_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.qismi_matin {
+  flex: 1;
+  max-width: 550px;
+}
+
+.sarlavhai_khurd {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.unvoni_asosi {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.shabakai_raqamho {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.karti_raqam {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon_raqam {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.matni_raqam {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.raqami_asosi {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.tavsifi_raqam {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+.tugmai_zarinni {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #1a1a1a;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.qismi_rasm {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rasmi_natija {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
