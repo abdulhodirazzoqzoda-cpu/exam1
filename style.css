@@ -900,3 +900,171 @@
 .tugmai_shaffof:hover {
   color: #f5a623;
 }
+.poyi_sahifa {
+  background-color: #faf9f6;
+  padding: 80px 0 30px;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+  border-top: 1px solid #e0e0e0;
+}
+
+.boloi_poyi {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.brend_poyi {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.link_logo_poyi {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.icon_logo_poyi {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.matni_logo_poyi {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.tavsifi_poyi {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.linkhoi_poyi {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.sutuni_poyi {
+  min-width: 120px;
+}
+
+.sarlavhai_sutun_poyi {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+}
+
+.fehrasti_poyi {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fehrasti_poyi li {
+  margin-bottom: 15px;
+}
+
+.fehrasti_poyi a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.fehrasti_poyi a:hover {
+  color: #f5a623;
+}
+
+.qutti_zarinni_poyi {
+  background-color: #f5a623;
+  padding: 40px 30px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+}
+
+.sarlavhai_qutti {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+}
+
+.tugmahoi_qutti {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tugmai_siyoh_poyi,
+.tugmai_safed_poyi {
+  display: block;
+  text-align: center;
+  padding: 14px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.tugmai_siyoh_poyi {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.tugmai_safed_poyi {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.tugmai_siyoh_poyi:hover,
+.tugmai_safed_poyi:hover {
+  opacity: 0.8;
+}
+
+.tahai_poyi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.matni_huquq {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+.iconhoi_ijtimoi {
+  display: flex;
+  gap: 15px;
+}
+
+.icon_ijtimoi {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.icon_ijtimoi:hover {
+  transform: translateY(-3px);
+}
